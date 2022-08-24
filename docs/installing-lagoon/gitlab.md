@@ -13,7 +13,7 @@ Not needed for \*most\* installs, but this is configured to integrate Lagoon wit
         GITLAB_API_HOST: <<URL of Gitlab example: https://your-gitlab.com>>
         GITLAB_API_TOKEN: << Personal Access token with Access to API >>
         GITLAB_SYSTEM_HOOK_TOKEN: << System Hook Secret Token >>
-    webhook-haondler:
+    webhook-handler:
       additionalEnvs:
         GITLAB_API_HOST: <<URL of Gitlab example: https://your-gitlab.com>>
         GITLAB_API_TOKEN: << Personal Access token with Access to API >>
